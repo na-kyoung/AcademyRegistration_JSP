@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `mp_login` (
   PRIMARY KEY (`num`)
 ) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=armscii8 COLLATE=armscii8_bin;
 
--- 테이블 데이터 jsp.db.mp_login:~9 rows (대략적) 내보내기
+-- 테이블 데이터 jsp.db.mp_login:~10 rows (대략적) 내보내기
 DELETE FROM `mp_login`;
 INSERT INTO `mp_login` (`num`, `name`, `id`, `password`, `tel`, `email`) VALUES
 	(1, '김아영', 'ayoung090', 'aa980805', '010-6514-6489', 'ayoung@naver.com'),
@@ -40,10 +40,9 @@ INSERT INTO `mp_login` (`num`, `name`, `id`, `password`, `tel`, `email`) VALUES
 	(5, '신유미', 'you54', '3654mimi', '010-6545-1145', '0mimi0@gmail.com'),
 	(6, '김유정', 'ujeong03', 'jjyou351', '010-3448-0799', 'ujeong@letsis.ac.kr'),
 	(7, '김민준', 'minyoon99', 'joon12394', '010-7815-6515', 'kimjoon@naver.com'),
-	(8, '권나경', 'kwon456', 'kkkk789', '010-7354-1651', 'kwon@gmail.com'),
-	(9, '장주미', 'jumi0005', '000512jumi', '010-8945-6516', 'jumi@letis.ac.kr'),
-	(25, '김주현', 'juhyeon95', 'kim950825', '010-2778-9415', 'juhyeon35@naver.com'),
-	(26, '박주현', 'juhyeon95', 'kim950825', '010-3514-3258', 'juhyeon35@naver.com');
+	(8, '장주미', 'jumi0005', '000512jumi', '010-8945-6516', 'jumi@letis.ac.kr'),
+	(9, '김주현', 'juhyeon95', 'kim950825', '010-2778-9415', 'juhyeon35@naver.com'),
+	(10, '박주현', 'juhyeon95', 'kim950825', '010-3514-3258', 'juhyeon35@naver.com');
 
 -- 테이블 jsp.db.mp_register 구조 내보내기
 CREATE TABLE IF NOT EXISTS `mp_register` (
