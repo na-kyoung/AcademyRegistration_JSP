@@ -60,7 +60,7 @@ DELETE FROM `mp_register`;
 INSERT INTO `mp_register` (`num`, `name`, `tel`, `email`, `subject`, `payment`) VALUES
 	(1, '김아영', '010-6514-6489', 'ayoung@naver.com', 'C, C++ 정복하기 Python으로 배우는 알고리즘 ', '무통장입금'),
 	(2, '이민정', '010-3514-3258', 'minmin@gmail.com', 'MS-SQL 마스터 Notion 100% 활용하기 ', '무통장입금'),
-	(3, '권나경', '010-7354-1651', 'kwon@gmail.com', '웹개발자 JSP (심화) Python으로 배우는 알고리즘 ', '현장결제');
+	(3, '신유미', '010-6545-1145', '0mimi0@gmail.com', '웹개발자 JSP (심화) Python으로 배우는 알고리즘 ', '현장결제');
 
 -- 테이블 jsp.db.mp_sub 구조 내보내기
 CREATE TABLE IF NOT EXISTS `mp_sub` (
