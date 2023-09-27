@@ -7,9 +7,12 @@
 >2023.05 - 2023.06 (개인)
 <br />
 
-## 언어 & 도구
-Java, JSP, MySQL <br />
-HediSQL, Apache Tomcat
+## 개발 환경
+- 언어 : Java (JDK 1.8)
+- 기술 : JSP
+- IDE : Eclipse, HeidiSQL
+- DB : MySQL
+- Server : Apache Tomcat 8.5
 
 <br />
 
@@ -22,6 +25,7 @@ HediSQL, Apache Tomcat
 - 수강신청 기능
 - 수강신청 목록 확인 기능
 - 수강신청 수정 기능
+- Bootstrap을 이용한 디자인 개선
 
 <br />
 
@@ -64,6 +68,6 @@ HediSQL, Apache Tomcat
 
 <br />
 
-## Result
+## 결과
 
 <br />
