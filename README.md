@@ -69,5 +69,6 @@
 <br />
 
 ## 결과
+[결과 보고서 보러가기](https://github.com/na-kyoung/academy_website_jsp/blob/master/academy_result.pdf)
 
 <br />
