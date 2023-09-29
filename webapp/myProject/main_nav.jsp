@@ -21,7 +21,7 @@
 	
 	//세션에 저장되어 있는 id값 읽어오기
 	String id = (String)session.getAttribute("id");
-	//저장되어 있는 id값이 없으면, id='손님' 설정
+	//저장되어 있는 id값이 없으면, id='' 설정
 	if(id == null){
 		id = "";
 	}
@@ -73,6 +73,7 @@
       	}
       	else {
       %>
+      <%-- 로그인 후 id 표시 --%>
       	&nbsp;	<%= id %> 님 <input class="btn btn-outline-success" 
       						type="button" 
       						value="로그아웃" 

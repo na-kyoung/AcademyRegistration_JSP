@@ -81,7 +81,7 @@ public class loginDao {
 		}
 	}
 	
-	//새로운 데이터 DB에 저장 메소드
+	//새로운 회원가입 데이터 DB에 저장 메소드
 	public void insertLogin(loginDo ldo) {
 		System.out.println("insertLogin() 처리 시작");
 		connect_cp();
@@ -110,7 +110,7 @@ public class loginDao {
 		disConnect();
 	}
 	
-	//전체 데이터 가져오기
+	//전체 회원 데이터 가져오기
 	public ArrayList<loginDo> getAllLogin(){
 		System.out.println("getAllLogin() 처리 시작");
 		connect_cp();
@@ -145,58 +145,58 @@ public class loginDao {
 		return aList;
 	}
 	
-	//하나의 주소록 데이터 가져오기
-	public loginDo getOneLogin(int num) {
-		connect_cp();
-		
-		//SQL 처리시작
-		loginDo ldo = new loginDo();
-		String sql = "select * from mp_login where num=?";
-		try {
-			pstmt = conn.prepareStatement(sql);
-			pstmt.setInt(1,num);
-			rs = pstmt.executeQuery();
-			
-			while(rs.next()) {
-				ldo.setNum(rs.getInt(1));
-				ldo.setName(rs.getString(2));
-				ldo.setId(rs.getString(3));
-				ldo.setPassword(rs.getString(4));
-				ldo.setTel(rs.getString(5));
-				ldo.setEmail(rs.getString(6));
-			}
-		} catch(SQLException e) {
-			e.printStackTrace();
-		}
-		disConnect();
-		return ldo;
-	}
+	// 하나의 회원 데이터 가져오기
+//	public loginDo getOneLogin(int num) {
+//		connect_cp();
+//		
+//		//SQL 처리시작
+//		loginDo ldo = new loginDo();
+//		String sql = "select * from mp_login where num=?";
+//		try {
+//			pstmt = conn.prepareStatement(sql);
+//			pstmt.setInt(1,num);
+//			rs = pstmt.executeQuery();
+//			
+//			while(rs.next()) {
+//				ldo.setNum(rs.getInt(1));
+//				ldo.setName(rs.getString(2));
+//				ldo.setId(rs.getString(3));
+//				ldo.setPassword(rs.getString(4));
+//				ldo.setTel(rs.getString(5));
+//				ldo.setEmail(rs.getString(6));
+//			}
+//		} catch(SQLException e) {
+//			e.printStackTrace();
+//		}
+//		disConnect();
+//		return ldo;
+//	}
 	
+	// 로그인 (오류처리)
 	public int loginInfo(String id, String password) {
 		connect_cp();
 		System.out.println("login sql 처리시작");
 		
-		loginDo ldo = new loginDo();
+		//loginDo ldo = new loginDo();
 		String SQL = "select password from mp_login where id=?";
 		
 		try {
 			pstmt = conn.prepareStatement(SQL);
 			pstmt.setString(1, id); //sql Injection 공격 방어 수단 : 1번째 물음표에 userID 입력
-			rs = pstmt.executeQuery(); // 쿼리 실행 
+			rs = pstmt.executeQuery(); // 쿼리 실행
 			if (rs.next()) {
 				if (rs.getString(1).equals(password)) { // rs.getString(1) : select된 첫번째 컬럼
 					return 1; //로그인 성공
 					
 				}else
-					return 0; // 비밀번호 틀림
+					return 2; // 비밀번호 틀림
 			}
-			return -1; // 아이디 없음 
+			return 3; // 아이디 틀림
 		}catch(Exception e) {
 			e.printStackTrace();
-			
 		}
 		disConnect();
-		return -2; //DB 오류 
+		return 4; //DB 오류 
 	}
 	
 }

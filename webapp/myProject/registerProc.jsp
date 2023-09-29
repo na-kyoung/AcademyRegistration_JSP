@@ -30,10 +30,10 @@
 		rdao.insertSub(rdo);
 	%>
 
-<div class="container" style="max-width:500px; border:1px solid #eee;
-	border-radius:5px; margin-top:100px; box-shadow:0 10px 20px rgba(0,0,0,0.3); padding:20px">
-	<p class="text-start fs-1 fw-bold"> 수강신청 완료 </p>
-	<table border="1">
+	<div class="container" style="max-width:500px; border:1px solid #eee;
+		border-radius:5px; margin-top:100px; box-shadow:0 10px 20px rgba(0,0,0,0.3); padding:20px">
+		<p class="text-start fs-1 fw-bold"> 수강신청 완료 </p>
+		<table border="1">
 			<tr height="60" align="center">
 				<td width="100"> 이름 </td>
 				<td width="300">

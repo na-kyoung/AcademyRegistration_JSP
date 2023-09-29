@@ -86,7 +86,7 @@ public class registerDao {
 		}
 	}
 	
-	//새로운 주소데이터 DB에 저장 메소드
+	//새로운 수강신청 데이터 DB에 저장
 	public void insertSub(registerDo rdo) {
 		System.out.println("insertAddr() 처리 시작");
 		connect_cp();
@@ -152,7 +152,7 @@ public class registerDao {
 		return aList;
 	}
 	
-	//하나의 주소록 데이터 가져오기
+	//하나의 수강신청 데이터 가져오기
 	public registerDo getOneInfo(int num) {
 		System.out.println("getOneInfo() 처리시작");
 		connect_cp();
