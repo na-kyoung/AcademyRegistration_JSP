@@ -3,8 +3,9 @@
 
 <br />
 
-## 개발 기간
->2023.05 - 2023.06 (개인)
+## 개요
+수강신청할 수 있으며, 회원가입/로그인/로그아웃 기능도 포함되어 있다. <br />
+또한, 프로그래밍 언어를 검색해서 관련된 개설 과목을 확인할 수 있다. <br />
 <br />
 
 ## 개발 환경
@@ -69,6 +70,27 @@
 <br />
 
 ## 결과
-[결과 보고서 보러가기](https://github.com/na-kyoung/academy_website_jsp/blob/master/academy_result.pdf)
+<!-- [결과 보고서 보러가기](https://github.com/na-kyoung/academy_website_jsp/blob/master/academy_result.pdf) -->
 
-<br />
+![1](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/6599a046-c52f-44b6-8f78-30d16ad52f57)
+
+![2](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/e1eb577f-6430-4aea-bb86-e8b03f2b611c)
+
+![3](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/c7a24dd7-c472-4946-a006-75fe118c9bc1)
+
+![4](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/0f2ccb09-24c0-4d9e-88f9-798033d98275)
+
+![5](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/2d3ea0de-a62f-437b-abc6-1ead04c88718)
+
+![6](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/31a3df44-055f-4850-b800-4b5751d7969c)
+
+![7](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/eab4f871-046b-4c5e-ab92-175db351b3af)
+
+![8](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/f6445d97-e22b-4614-9b4a-dc30153e36a3)
+
+![9](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/82b79655-863f-478d-8c14-bbe8fb2ea083)
+
+![10](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/9735fdaa-dde1-41fd-82a6-9c35783d6ef3)
+
+![11](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/8bea5069-81f3-4209-8d0e-7d2917bbd329)
+
