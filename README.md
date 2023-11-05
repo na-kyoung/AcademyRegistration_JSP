@@ -19,21 +19,27 @@
 ## 개발 환경
 - 언어 : Java (JDK 1.8)
 - 기술 : JSP
-- IDE : Eclipse, HeidiSQL
 - DB : MySQL
 - Server : Apache Tomcat 8.5
+- 라이브러리
+  - commons-collections4-4.4
+  - commons-dbcp2-2.9.0
+  - commons-pool2-2.11.1
+  - mysql-connector-java-5.1.25-bin
 
 <br />
 
 ## 구현 기능
+- 수강신청 기능
+- 수강신청 목록 확인 기능
+- 수강신청 정보 확인 기능
+- 수강신청 수정 기능
+- 수강신청 삭제 기능
 - 회원가입 기능
 - 회원 목록 확인 기능
 - 로그인/로그아웃 기능
 - 로그인 오류 처리 (ID 틀림, 비밀번호 틀림, DB오류)
 - 개설 과목 검색 기능
-- 수강신청 기능
-- 수강신청 목록 확인 기능
-- 수강신청 수정 기능
 - Bootstrap을 이용한 디자인 개선
 
 <br />
