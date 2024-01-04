@@ -1,4 +1,4 @@
-# :computer: Academy Registration
+# :computer: 학원 수강신청 웹
 - JSP를 활용한 프로그래밍 학원 수강신청 웹사이트 <br />
 - MySQL로 데이터베이스를 연동하고 아파치 톰캣을 이용해 서버를 연결
 
@@ -38,6 +38,18 @@
 
 <br />
 
+## 데이터베이스
+- mp_login : 회원 (회원가입 및 로그인 처리)
+<img width="700" alt="db-login" src="https://github.com/na-kyoung/AcademyRegistration_JSP/assets/137421820/ba7117f6-050b-4e54-b343-0c2336264c17">
+
+- mp_register : 수강신청 (수강신청 처리)
+<img width="700" alt="db-register" src="https://github.com/na-kyoung/AcademyRegistration_JSP/assets/137421820/52ecae16-9a49-4ea2-911e-cf6e33afabda">
+
+- mp_sub : 개설 과목 (과목 검색)
+<img width="700" alt="db-subject" src="https://github.com/na-kyoung/AcademyRegistration_JSP/assets/137421820/46cca475-5e22-489e-87ad-4b497b48ec28">
+
+<br />
+
 ## 파일 구조
 <img src="https://github.com/na-kyoung/academy_website_jsp/assets/137421820/5486f5b4-e482-4385-b737-588f2009b81b" style="width:80%;"/>
 <p></p>
@@ -47,6 +59,7 @@
 ![파일구조 최종](https://github.com/na-kyoung/academy_website_jsp/assets/137421820/5486f5b4-e482-4385-b737-588f2009b81b)
 -->
 
+<!--
 ## 파일 설명
 | 파일 이름 | 내용 |
 |-----|-----|
@@ -74,8 +87,8 @@
 | registerDao.java | 수강신청 정보 처리 |
 | subjectDo.java	 | 과목 정보 |
 | subjectDao.java | 과목 정보 처리 |
-
 <br />
+-->
 
 ## 결과
 <!-- [결과 보고서 보러가기](https://github.com/na-kyoung/academy_website_jsp/blob/master/academy_result.pdf) -->
